@@ -1,0 +1,31 @@
+<!doctype html><meta charset="utf-8"><title>Experiment report</title><style>body{font:16px system-ui;max-width:1000px;margin:40px auto;background:#f3f6fc;color:#173254}table{border-collapse:collapse;width:100%}td,th{border:1px solid #bbb;padding:15px;text-align:left}pre{white-space:pre-wrap}th{width:25%}</style><h1>Reproducible experiment report</h1><p>Synthetic data; educational results, not production evidence.</p><table><tr><th>data</th><td><pre>"60 fictional users, 40 fictional movies, 1500 unique observed ratings; 1000 train, 250 validation, 250 test"</pre></td></tr><tr><th>selected_epochs</th><td><pre>100</pre></td></tr><tr><th>selection</th><td><pre>[
+  {
+    "epochs": 40,
+    "validation_rmse": 0.3253645583912829
+  },
+  {
+    "epochs": 100,
+    "validation_rmse": 0.22374833377333472
+  }
+]</pre></td></tr><tr><th>test_rmse</th><td><pre>0.2389550097712311</pre></td></tr><tr><th>global_mean_baseline_rmse</th><td><pre>0.7286026278063412</pre></td></tr><tr><th>macro_recall_at_5</th><td><pre>0.8183760683760684</pre></td></tr><tr><th>item_mean_baseline_recall_at_5</th><td><pre>0.25</pre></td></tr><tr><th>ranking_evaluated_users</th><td><pre>39</pre></td></tr><tr><th>user_0_recommendations</th><td><pre>[
+  {
+    "item": 39,
+    "predicted_rating": 3.676185867358062
+  },
+  {
+    "item": 24,
+    "predicted_rating": 3.5521357311603587
+  },
+  {
+    "item": 14,
+    "predicted_rating": 3.543918059137233
+  },
+  {
+    "item": 26,
+    "predicted_rating": 3.4402647896260725
+  },
+  {
+    "item": 11,
+    "predicted_rating": 3.3743545473695398
+  }
+]</pre></td></tr><tr><th>caveat</th><td><pre>"Random warm-start split on synthetic data. Unobserved ratings are unknown relevance, and ranking evaluation is incomplete. No cold-start or temporal claims."</pre></td></tr></table>

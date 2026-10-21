@@ -1,0 +1,42 @@
+{
+  "data": "60 fictional users, 40 fictional movies, 1500 unique observed ratings; 1000 train, 250 validation, 250 test",
+  "selected_epochs": 100,
+  "selection": [
+    {
+      "epochs": 40,
+      "validation_rmse": 0.3253645583912829
+    },
+    {
+      "epochs": 100,
+      "validation_rmse": 0.22374833377333472
+    }
+  ],
+  "test_rmse": 0.2389550097712311,
+  "global_mean_baseline_rmse": 0.7286026278063412,
+  "macro_recall_at_5": 0.8183760683760684,
+  "item_mean_baseline_recall_at_5": 0.25,
+  "ranking_evaluated_users": 39,
+  "user_0_recommendations": [
+    {
+      "item": 39,
+      "predicted_rating": 3.676185867358062
+    },
+    {
+      "item": 24,
+      "predicted_rating": 3.5521357311603587
+    },
+    {
+      "item": 14,
+      "predicted_rating": 3.543918059137233
+    },
+    {
+      "item": 26,
+      "predicted_rating": 3.4402647896260725
+    },
+    {
+      "item": 11,
+      "predicted_rating": 3.3743545473695398
+    }
+  ],
+  "caveat": "Random warm-start split on synthetic data. Unobserved ratings are unknown relevance, and ranking evaluation is incomplete. No cold-start or temporal claims."
+}

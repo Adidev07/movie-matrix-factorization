@@ -1,0 +1,9 @@
+test_excludes_seen (test_project.ProjectTests.test_excludes_seen) ... ok
+test_no_candidates (test_project.ProjectTests.test_no_candidates) ... ok
+test_training_reduces_error (test_project.ProjectTests.test_training_reduces_error) ... ok
+test_unique_pairs (test_project.ProjectTests.test_unique_pairs) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.432s
+
+OK
